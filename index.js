@@ -1,7 +1,7 @@
 'use strict';
 const execa = require('execa');
 const isJpg = require('is-jpg');
-const mozjpeg = require('mozjpeg');
+const mozjpeg = require('mozjpeg-plus');
 
 module.exports = options => buffer => {
 	options = Object.assign({

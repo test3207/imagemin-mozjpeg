@@ -1,25 +1,8 @@
 {
-  "name": "imagemin-mozjpeg",
-  "version": "8.0.0",
-  "description": "Imagemin plugin for mozjpeg",
+  "name": "imagemin-mozjpeg-plus",
+  "version": "0.0.1",
+  "description": "modified imagemin-mozjpeg, to configure binary source url manually",
   "license": "MIT",
-  "repository": "imagemin/imagemin-mozjpeg",
-  "author": {
-    "name": "Kevin Mårtensson",
-    "email": "kevinmartensson@gmail.com",
-    "url": "github.com/kevva"
-  },
-  "maintainers": [
-    {
-      "name": "Sindre Sorhus",
-      "email": "sindresorhus@gmail.com",
-      "url": "sindresorhus.com"
-    },
-    {
-      "name": "Shinnosuke Watanabe",
-      "url": "github.com/shinnn"
-    }
-  ],
   "engines": {
     "node": ">=6"
   },
@@ -43,7 +26,7 @@
   "dependencies": {
     "execa": "^1.0.0",
     "is-jpg": "^2.0.0",
-    "mozjpeg": "^6.0.0"
+    "mozjpeg-plus": "^0.0.1"
   },
   "devDependencies": {
     "ava": "^1.0.1",

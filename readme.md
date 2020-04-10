@@ -1,12 +1,22 @@
-# imagemin-mozjpeg [![Build Status](https://travis-ci.org/imagemin/imagemin-mozjpeg.svg?branch=master)](https://travis-ci.org/imagemin/imagemin-mozjpeg)
+# imagemin-mozjpeg-plus
+
+IMPORTANT: THIS IS A FORK OF 'imagemin-mozjpeg', TO MAKE SOURCE URL CONFIGURABLE! WON'T UPDATE! IF YOU CAN ACCESS GITHUB NATURALLY, YOU WON'T NEED THIS!
 
 > [Imagemin](https://github.com/imagemin/imagemin) plugin for [mozjpeg](https://github.com/mozilla/mozjpeg)
 
 
 ## Install
 
+before install, you can config source url manually by
+
 ```
-$ npm install imagemin-mozjpeg
+$ npm config set mozjpeg_url "https://your_own_mirror"
+```
+
+default is 'https://github.com/mozilla/mozjpeg/releases/download/v3.2/mozjpeg-3.2-release-source.tar.gz'
+
+```
+$ npm install imagemin-mozjpeg-plus
 ```
 
 
@@ -14,7 +24,7 @@ $ npm install imagemin-mozjpeg
 
 ```js
 const imagemin = require('imagemin');
-const imageminMozjpeg = require('imagemin-mozjpeg');
+const imageminMozjpeg = require('imagemin-mozjpeg-plus');
 
 (async () => {
 	await imagemin(['images/*.jpg'], 'build/images', {
