@@ -26,7 +26,7 @@
   "dependencies": {
     "execa": "^1.0.0",
     "is-jpg": "^2.0.0",
-    "mozjpeg-plus": "^0.0.4"
+    "mozjpeg-plus": "^0.0.5"
   },
   "devDependencies": {
     "ava": "^1.0.1",
