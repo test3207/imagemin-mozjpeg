@@ -1,6 +1,6 @@
 {
   "name": "imagemin-mozjpeg-plus",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "modified imagemin-mozjpeg, to configure binary source url manually",
   "license": "MIT",
   "engines": {
